@@ -11,9 +11,9 @@
   "skus": [
     {
       "name": " Rubber Duck MK Ultra - Original ",
-      "available": false,
-      "current_price": null,
-      "old_price": null
+      "available": true,
+      "current_price": 12.0,
+      "old_price": 16.0
     },
     {
       "name": " Rubber Duck MK Ultra - Summer Version ",
@@ -23,9 +23,9 @@
     },
     {
       "name": " Rubber Duck MK Ultra - Batman Version ",
-      "available": false,
-      "current_price": null,
-      "old_price": null
+      "available": true,
+      "current_price": 12.0,
+      "old_price": 16.0
     }
   ],
   "properties": [
