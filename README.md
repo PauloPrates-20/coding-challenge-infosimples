@@ -5,6 +5,9 @@
 - [Visão Geral](#visão-geral)
 - [Comentários](#comentários)
 - [Referências](#referências)
+
+## Table of Contents
+
 - [Overview](#overview)
 - [Comments](#comments)
 - [Referencies](#referencies)
