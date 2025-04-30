@@ -20,8 +20,8 @@ Este projeto é um web scrapper básico desenvolvido com **`Ruby`** para o codin
 
 Esta foi a primeira vez que utilizei **`Ruby`**. A escolha da linguagem foi motivada por dois fatores principais:
 
-1- Esta é a linguagem majoritariamente utilizada na empresa, tornando-se conveniente utilizá-la e adiantar de certo modo o processo de aprendizado;
-2- Ter contato com uma tecnologia nova através de uma aplicação prática bem estruturada.
+1. Esta é a linguagem majoritariamente utilizada na empresa, tornando-se conveniente utilizá-la e adiantar de certo modo o processo de aprendizado;
+2. Ter contato com uma tecnologia nova através de uma aplicação prática bem estruturada.
 
 Algumas decisões apresentadas no resultado final divergiram do planejamento inicial, sendo a principal delas a forma como o web scrapping foi realizado, que, no código final foi um processo bastante manual enquanto que, a princípio, a intenção original era criar um `hash` intermediário para armazenar as propriedades do `json` de resposta com suas respectivas `tags` e `css selectors`. Porém a presença de estruturas de dados mais complexas do que apenas strings e números resultaram na abordagem mais simples e manual.
 
@@ -41,8 +41,8 @@ The following project is a simple web scrapper developed with **`Ruby`** for the
 
 This was my first time working with **`Ruby`**. The programming language choice was influenced by two major factors:
 
-1- It is the main programming language used in the company, which made it a convenient choice for the project for the purpose of speeding the learning proccess.
-2- It was a good oportunity to have contact with a new technology in a pratical and well organized manner.
+1. It is the main programming language used in the company, which made it a convenient choice for the project for the purpose of speeding the learning proccess.
+2. It was a good oportunity to have contact with a new technology in a pratical and well organized manner.
 
 Some of the decisions shown in the final result deiverged from the initial planning, being the main one the actual web scrapping proccess, which, in the final code was done in a very manual manner, while the original intent was to use an intermediate `hash` to store the output `json`'s properties with their respective `tags` and `selectors`. But the presence of more complex data structures than numbers and strings resulted in the simpler approach.
 
