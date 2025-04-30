@@ -70,14 +70,14 @@ html.css('div.card-container').each { |node|
   sku = {}
   sku['name'] = node.css('div.prod-nome').text
 
-  if node.css('>i')
+  if node.css('>i').text != ''
     sku['available'] = false
     sku['current_price'] = nil
     sku['old_price'] = nil
   else
     sku['available'] = true
-    sku['current_price'] = html.css('div.prod-pnow').text.to_f
-    sku['old_price'] = html.css('div.prod-pold').text.to_f
+    sku['current_price'] = html.css('div.prod-pnow').text.gsub('R$ ', '').to_f
+    sku['old_price'] = html.css('div.prod-pold').text.gsub('R$ ', '').to_f
   end
 
   skus << sku
