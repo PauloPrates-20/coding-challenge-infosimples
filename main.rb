@@ -68,7 +68,7 @@ output_json['description'] = html.css('div.proddet>p').text
 # Skus
 html.css('div.card-container').each { |node|
   sku = {}
-  sku['name'] = html.css('div.prod-name').text
+  sku['name'] = node.css('div.prod-nome').text
 
   if node.css('>i')
     sku['available'] = false
@@ -87,9 +87,13 @@ output_json['skus'] = skus
 html.css('tr').each { |node|
   property = {}
 
-  property['label'] = node.css('td>b').text
-  property['value'] = node.css('td:nth-child(2)').text
-  properties << property
+  if node.css('td>b').text != "" 
+    property['label'] = node.css('td>b').text
+    property['value'] = node.css('td:nth-child(2)').text
+
+    properties << property
+  end
+
 }
 output_json['properties'] = properties
 # Reviews
