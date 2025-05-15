@@ -64,11 +64,11 @@ html.css('nav.current-category>a').each { |node|
 }
 output_json['categories'] = categories
 # Descriptions
-output_json['description'] = html.css('div.proddet>p').text
+output_json['description'] = html.css('div.proddet>p').text.strip
 # Skus
 html.css('div.card-container').each { |node|
   sku = {}
-  sku['name'] = node.css('div.prod-nome').text
+  sku['name'] = node.css('div.prod-nome').text.strip
 
   if node.css('>i').text != ''
     sku['available'] = false
